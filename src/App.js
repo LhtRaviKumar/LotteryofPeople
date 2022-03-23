@@ -13,60 +13,60 @@ function App() {
        </header>
        <main>
          <Banner />
-         <div className="flex justify-between text-xl py-9 font-bold cursor-pointer"><p>Top Games</p>
+         <div className="flex justify-between text-ft8 py-9 font-semibold cursor-pointer"><p>Top Games</p>
          <p className="text-blue-50 flex">See all<img src='arrow.png' className="w-5 h-6 mx-1" alt=''></img></p>
          </div>
          <Slide1 />
 
-         <div className="flex py-9 text-xl font-bold cursor-pointer"><p>Total Money Earned till date</p></div>
+         <div className="flex py-9 text-ft8 font-semibold cursor-pointer"><p>Total Money Earned till date</p></div>
          <Slide2 />
 
-         <div className="flex py-9 text-xl font-bold cursor-pointer"><p>Join and Earn</p></div>
+         <div className="flex py-9 text-ft8 font-semibold cursor-pointer"><p>Join and Earn</p></div>
          <div className="flex flex-wrap lg:px-8">
            <div className="flex bg-grey w-full h-72 lg:w-45 lg:mx-2 my-1 items-center">
              <div className='px-3 text-justify space-y-7 '>
-               <p className=' font-bold text-base pt-3'>For Game Designers</p>
-               <p className=' mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
-               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-bold border-blue-50 hover:border-black-100">CREATE GAME</button>
+               <p className=' font-semibold text-ft6 pt-3'>For Game Designers</p>
+               <p className='text-ft5 font-normal mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
+               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-semibold text-ft3 border-blue-50 hover:border-black-100">CREATE GAME</button>
              </div>
-             <div > <img className='' src="game1.png" alt=''></img></div>
+             <div className='w-96 mx-14' > <img className='' src="game1.png" alt=''></img></div>
 
            </div>
 
            <div className="flex bg-grey w-full h-72 my-1 lg:w-45 lg:mx-2 items-center">
            <div className='px-3 text-justify space-y-7'>
-               <p className=' font-bold text-base pt-3'>For Lottery Sponsors</p>
-               <p className=' mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
-               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-bold border-blue-50 hover:border-black-100">SPONSOR GAME</button>
+               <p className=' font-semibold text-ft6  pt-3'>For Lottery Sponsors</p>
+               <p className='text-ft5 font-normal mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
+               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-semibold text-ft3 border-blue-50 hover:border-black-100">SPONSOR GAME</button>
              </div>
-             <div > <img className='' src="game2.png" alt=''></img></div>
+             <div className='w-96 mx-14'  > <img className='' src="game2.png" alt=''></img></div>
 
            </div>
 
            <div className="flex bg-grey w-full h-72 lg:w-45 lg:mx-2 my-1 items-center">
            <div className='px-3 text-justify space-y-7'>
-               <p className=' font-bold text-base pt-3'>For Distributors</p>
-               <p className=' mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
-               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-bold border-blue-50 hover:border-black-100">BECOME A DISTRIBUTOR</button>
+               <p className='font-semibold text-ft6  pt-3'>For Distributors</p>
+               <p className='text-ft5 font-normal mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
+               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-semibold text-ft3 border-blue-50 hover:border-black-100">BECOME A DISTRIBUTOR</button>
              </div>
-             <div className=''> <img src="game3.png" alt=''></img></div>
+             <div className='w-96 mx-14' > <img src="game3.png" alt=''></img></div>
 
            </div>
 
            <div className="flex bg-grey w-full h-72 lg:w-45 lg:mx-2 my-1 items-center">
            <div className='px-3 text-justify space-y-7'>
-               <p className=' font-bold text-base pt-3'>For Retailers</p>
-               <p className=' mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
-               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-bold border-blue-50 hover:border-black-100">BECOME A RETAILER</button>
+               <p className=' font-semibold text-ft6  pt-3'>For Retailers</p>
+               <p className='text-ft5 font-normal mr-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</p>
+               <button className="px-8 py-1 border-2 rounded-full text-blue-50 hover:text-black-100 font-semibold text-ft3 border-blue-50 hover:border-black-100">BECOME A RETAILER</button>
              </div>
-             <div className=''> <img src="game4.png" alt=''></img></div>
+             <div className='w-96 mx-14' > <img src="game4.png" alt=''></img></div>
 
            </div>
 
          </div>
 
 
-         <div className="flex py-9 text-xl font-bold cursor-pointer"><p>How Lottery of the People works</p></div>
+         <div className="flex py-9 text-ft8 font-semibold cursor-pointer"><p>How Lottery of the People works</p></div>
          < Slide3 />
            <footer className='bottom-0 pt-8'>
              <div className='bg-blue-100 w-full h-full flex flex-row text-white flex-wrap justify-between'>

@@ -4,11 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      height:{
-        '26':'115px',
-        '144':'576px',
-      },
-      width:{
+      spacing:{
+    '26':'115px',
+    '144':'576px',
     '23':'812px',
     '26':'115px',
     '180':'600px',
@@ -29,7 +27,53 @@ module.exports = {
       grey:'#F6FAFC',
       red:'#FF6142',
 
-    }
+    },
+    fontSize:{
+      'ft1':['12px',{
+        letterSpacing:'0em',
+        lineHeight:'18px',
+      }],
+      'ft2':['14px',{
+        letterSpacing:'0em',
+        lineHeight:'21px',
+      }],
+      'ft3':['15px',{
+        letterSpacing:'0em',
+        lineHeight:'23px',
+      }],
+      'ft4':['16px',{
+        letterSpacing:'0em',
+        lineHeight:'25px',
+      }],
+      'ft5':['16px',{
+        letterSpacing:'0em',
+        lineHeight:'22px',
+      }],
+      'ft6':['18px',{
+        letterSpacing:'0em',
+        lineHeight:'27px',
+      }],
+      'ft7':['22px',{
+        letterSpacing:'0em',
+        lineHeight:'33px',
+      }],
+      'ft8':['24px',{
+        letterSpacing:'0em',
+        lineHeight:'35px',
+      }],
+      'ft9':['34px',{
+        letterSpacing:'0em',
+        lineHeight:'62px',
+      }],
+      'ft10':['38px',{
+        letterSpacing:'0em',
+        lineHeight:'57px',
+      }],
+      'ft11':['44px',{
+        letterSpacing:'0em',
+        lineHeight:'62px',
+      }],
+    },
   },
   fontFamily:{
 poppins:'poppins'
